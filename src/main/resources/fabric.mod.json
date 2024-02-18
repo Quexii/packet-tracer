@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "packet-tracer",
+  "version": "${version}",
+  "name": "packet-tracer",
+  "description": "",
+  "authors": [
+    "shoroa"
+  ],
+  "contact": {
+    "website": "shoroa.eu"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/packet-tracer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "eu.shoroa.packettracer.client.PacketTracerClient"
+    ],
+    "main": [
+      "eu.shoroa.packettracer.PacketTracer"
+    ]
+  },
+  "mixins": [
+    "packet-tracer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "category.packettracer.packetcontrol": "Packet Control",
+  "key.packettracer.startrecording": "Start Recording",
+  "key.packettracer.stoprecording": "Stop Recording",
+  "key.packettracer.opengui": "Open GUI"
+}
